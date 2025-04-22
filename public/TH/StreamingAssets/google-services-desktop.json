@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "708190479598",
+    "project_id": "word-puzzle-b08ef",
+    "storage_bucket": "word-puzzle-b08ef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:708190479598:android:de34dd56d1d23dec317fff",
+        "android_client_info": {
+          "package_name": "com.nampstudios.wordpuzzle"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwCZ51IMgw4wMWfyoZGwaRJugKiqRmv3U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
