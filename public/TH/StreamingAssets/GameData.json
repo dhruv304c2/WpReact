@@ -1,0 +1,342 @@
+{
+  "showConsentPopup": true,
+  "consentLevel": 0,
+  "showBannerAds": true,
+  "BannerAdMinimumLevel": 0,
+  "showInterstitialAds": true,
+  "InterstitialAdMinimumLevel": 5,
+  "InterstitialAdDifference": 3,
+  "forceUpdateVersion": "1.0.0",
+  "hintCost": 100,
+  "targetCost": 200,
+  "adRewardCoin": 100,
+  "autoPlayVideo": false,
+  "rewardedAdCoolTimeDuration": 3600,
+  "notificationLevel": 6,
+  "defaultCoins": 200,
+  "defaultGems": 10,
+  "defaultColorKits": 0,
+  "extrawordsCollectionlimit": 50,
+  "extrawordsCollectionRewardAmount": 100,
+  "gameId": "NostraWordPuzzle",
+  "privacyPolicyURL": "https://nostra.gg/privacy-policy.html",
+  "dataPolicyURL": "https://nostra.gg/privacy-policy.html",
+  "apiURL": "https://leaderboard-staging.glance.inmobi.com",
+  "leaderboardGamePointsRequired": 10,
+  "BaseLevelUrl": "https://x-stg.glance-cdn.com/public/content/assets/other/wordPuzzle_stage/",
+  "color": "#F2C110",
+  "selectedBoxColor": [
+    "#f27c14",
+    "#f5e31d",
+    "#9c1ae7",
+    "#d042f8",
+    "#f10983",
+    "#0acb10",
+    "#d61173",
+    "#178bd5",
+    "#fb8318",
+    "#095fee",
+    "#750ed5",
+    "#a9da15",
+    "#338fed"
+  ],
+  "localNotifications": [
+    {
+      "title": "Hey Word Wizards!",
+      "message": "Miss the thrill? Dive back into word mastery! Challenge your brain, expand vocab, reignite your passion! Play now, reign supreme!",
+      "localTime": 810,
+      "recursivDays": 7
+    },
+    {
+      "title": "Hey Word Wizards!",
+      "message": "Miss the thrill? Dive back into word mastery! Challenge your brain, expand vocab, reignite your passion! Play now, reign supreme!",
+      "localTime": 960,
+      "recursivDays": 7
+    }
+  ],
+  "IAP": [
+    {
+      "id": "coins1",
+      "amount": 500
+    },
+    {
+      "id": "coins2",
+      "amount": 1500
+    },
+    {
+      "id": "coins3",
+      "amount": 4000
+    }
+  ],
+  "Shop": {
+    "Bundles": [
+      {
+        "Title": "Basic Bundle",
+        "purchaseType": 0,
+        "purchaseAmount": 1.99,
+        "bundleID": "basicbundle",
+        "Rewards": [
+          {
+            "type": 0,
+            "amount": 10,
+            "imageId": "gems_1"
+          },
+          {
+            "type": 1,
+            "amount": 100,
+            "imageId": "coins_1"
+          },
+          {
+            "type": 2,
+            "amount": 1,
+            "imageId": "colorkit"
+          }
+        ]
+      },
+      {
+        "Title": "Standard Bundle",
+        "purchaseType": 0,
+        "purchaseAmount": 2.99,
+        "bundleID": "standardbundle",
+        "Rewards": [
+          {
+            "type": 0,
+            "amount": 20,
+            "imageId": "gems_2"
+          },
+          {
+            "type": 1,
+            "amount": 400,
+            "imageId": "coins_2"
+          },
+          {
+            "type": 2,
+            "amount": 2,
+            "imageId": "colorkit"
+          }
+        ]
+      },
+      {
+        "Title": "Super Bundle",
+        "purchaseType": 0,
+        "purchaseAmount": 5.99,
+        "bundleID": "superbundle",
+        "Rewards": [
+          {
+            "type": 0,
+            "amount": 50,
+            "imageId": "gems_2"
+          },
+          {
+            "type": 1,
+            "amount": 1000,
+            "imageId": "coins_2"
+          },
+          {
+            "type": 2,
+            "amount": 5,
+            "imageId": "colorkit"
+          }
+        ]
+      },
+      {
+        "Title": "Mega Bundle",
+        "purchaseType": 0,
+        "purchaseAmount": 9.99,
+        "bundleID": "megabundle",
+        "Rewards": [
+          {
+            "type": 0,
+            "amount": 100,
+            "imageId": "gems_3"
+          },
+          {
+            "type": 1,
+            "amount": 5000,
+            "imageId": "coins_3"
+          },
+          {
+            "type": 2,
+            "amount": 20,
+            "imageId": "colorkit"
+          }
+        ]
+      },
+      {
+        "Title": "Premium Bundle",
+        "purchaseType": 0,
+        "purchaseAmount": 19.99,
+        "bundleID": "premiumbundle",
+        "Rewards": [
+          {
+            "type": 0,
+            "amount": 500,
+            "imageId": "gems_3"
+          },
+          {
+            "type": 1,
+            "amount": 20000,
+            "imageId": "coins_3"
+          },
+          {
+            "type": 2,
+            "amount": 50,
+            "imageId": "colorkit"
+          }
+        ]
+      }
+    ],
+    "Packs": [
+      {
+        "Title": "Gems Pouch",
+        "items": [
+          {
+            "type": 0,
+            "purchaseType": 0,
+            "bundleID": "gemspack1",
+            "purchasePrice": 2.99,
+            "rewardAmount": 50,
+            "imageId": "gems_1"
+          },
+          {
+            "type": 0,
+            "purchaseType": 0,
+            "bundleID": "gemspack2",
+            "purchasePrice": 5.99,
+            "rewardAmount": 200,
+            "imageId": "gems_2"
+          },
+          {
+            "type": 0,
+            "purchaseType": 0,
+            "bundleID": "gemspack3",
+            "purchasePrice": 9.99,
+            "rewardAmount": 1000,
+            "imageId": "gems_3"
+          }
+        ]
+      },
+      {
+        "Title": "Coins Pack",
+        "items": [
+          {
+            "type": 1,
+            "purchaseType": 1,
+            "purchasePrice": 10,
+            "rewardAmount": 200,
+            "imageId": "coins_1"
+          },
+          {
+            "type": 1,
+            "purchaseType": 1,
+            "purchasePrice": 50,
+            "rewardAmount": 1200,
+            "imageId": "coins_2"
+          },
+          {
+            "type": 1,
+            "purchaseType": 1,
+            "purchasePrice": 100,
+            "rewardAmount": 3000,
+            "imageId": "coins_3"
+          }
+        ]
+      },
+      {
+        "Title": "Color Kits",
+        "items": [
+          {
+            "type": 2,
+            "purchaseType": 1,
+            "purchasePrice": 30,
+            "rewardAmount": 1,
+            "imageId": "colorkit"
+          },
+          {
+            "type": 2,
+            "purchaseType": 1,
+            "purchasePrice": 50,
+            "rewardAmount": 2,
+            "imageId": "colorkit"
+          },
+          {
+            "type": 2,
+            "purchaseType": 1,
+            "purchasePrice": 100,
+            "rewardAmount": 5,
+            "imageId": "colorkit"
+          }
+        ]
+      }
+    ]
+  },
+  "Painting": {
+    "colors": [
+      {
+        "palette": [
+          "#FFFFFF",
+          "#ADADAD",
+          "#FBEE4F",
+          "#FEFAAA",
+          "#ECC26C",
+          "#DF8B4A",
+          "#BB6224",
+          "#CE2C1E",
+          "#9A352A",
+          "#D34A7A",
+          "#000000",
+          "#323531",
+          "#3C7F2D",
+          "#577833",
+          "#9FDE5E",
+          "#80A6F8",
+          "#4E86F6",
+          "#395273",
+          "#0F2D77",
+          "#FF0000"
+        ]
+      }
+    ]
+  },
+  "Connect": {
+    "communityId": "660a90fd1b19a71be8e853ab",
+    "clientSecret": "63749b2a4a177ce233bc1b86.d7ba1f4ecb5d69993c87ddf3bb7dfbdb",
+    "clientId": "63749b2a4a177ce233bc1b86.6768a1fb4d74ae0e89162b8285649132",
+    "backendurl": "https://turbolive-staging.glance.inmobi.com",
+    "frontendurl": "http://community-fe.internal.glance-np.glance.com/?",
+    "groupId": "660a9ca10e2c18f8772b0e74",
+    "tabId": "660a9ca10e2c18f8772b0e77",
+    "adminToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtb2JpbGVWZXJpZmljYXRpb24iOnsiY291bnRyeUNvZGUiOiIrOTEifSwiX2lkIjoiNjVmOTY0MTk3MDE5NmQ5N2JkN2Y2NTU4IiwidGl0bGUiOiIiLCJuYW1lIjoiSm9obiIsInVzZXJJZCI6ImJsb29keWdyZWF0X2dyYW5kc29uNzIyMzIiLCJjb3VudHJ5Q29kZSI6Iis5MSIsImVtYWlsIjoiZGRzQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoibm9uZSIsImlzVmVyaWZpZWQiOmZhbHNlLCJpc1ZlcmlmaWVkQnlQZW5zaWwiOmZhbHNlLCJwaWN0dXJlIjoiaHR0cHM6Ly9nY3MuZGV2LmdsYW5jZS5jb20vcHVibGljL2NvbnRlbnQvYXNzZXRzL3hpYW9taS9hdnRhcnQ6YTkucG5nIiwiZm9sbG93ZXJzIjowLCJmb2xsb3dpbmciOjAsInJvbGUiOiJ1c2VyIiwib3RwQXR0ZW1wdHMiOjAsImxvZ2luQXR0ZW1wdHMiOjAsImxhc3RMb2dpbkRhdGUiOiIyMDI0LTAzLTE5VDEwOjA4OjI1LjY0MFoiLCJ0YWdzIjpbXSwiZXhhbXMiOltdLCJjb21tdW5pdHlUeXBlU2VsZWN0aW9uIjoiIiwicmVmZXJlbmNlSWRJblNvdXJjZSI6IjNkNjcwNWU2LTFiN2QtNGY4Zi05ZmVhLTliN2FlZDJiMmQ2MyIsImFsdGVybmF0ZVJlZmVyZW5jZUlkIjoiM2Q2NzA1ZTYtMWI3ZC00ZjhmLTlmZWEtOWI3YWVkMmIyZDYzIiwiYWZmaWxpYXRlZENvbW11bml0eSI6IjYzNzQ5YjJhNGExNzdjZTIzM2JjMWI4NiIsImlzRGlzYWJsZWQiOmZhbHNlLCJpc0JvdCI6ZmFsc2UsInVuaXF1ZUlkIjoiOXEwOGp5MTIiLCJpc0dvb2dsZVZlcmlmaWVkIjpmYWxzZSwidXNlckNyZWF0aW9uU291cmNlIjoiM1BDX0dFTkVUUkFURV9VU0VSX1RPS0VOX1VQREFURSIsImdjRm9sbG93ZXJDb3VudCI6MSwiaXNWZXJpZmllZEJ5Tm9zdHJhIjpmYWxzZSwiY3JlYXRlZEF0IjoiMjAyNC0wMy0xOVQxMDowODoyNS43NTVaIiwidXBkYXRlZEF0IjoiMjAyNC0wNC0wMVQxMzoxOTowNi43NjVaIiwiX192IjowLCJpYXQiOjE3MTE5Nzc1NDZ9.FM_laUEmJ7u1tKqwYyKbhTRE0CNdZkAiH-MsosNROLM"
+  },
+  "packs": [
+    {
+      "packName": "ARCHITECTURE",
+      "color": "#F2C110",
+      "selectedBoxColor": [
+        "#f27c14",
+        "#f5e31d",
+        "#9c1ae7",
+        "#d042f8",
+        "#f10983",
+        "#0acb10",
+        "#d61173",
+        "#178bd5",
+        "#fb8318",
+        "#095fee",
+        "#750ed5",
+        "#a9da15",
+        "#338fed"
+      ],
+      "background": "",
+      "categoryInfos": [
+        {
+          "displayName": "Angkor Wat",
+          "levelFiles": [
+            "{\"isOneTime\":true,\"rowCount\":8,\"colCount\":5,\"type\":0,\"rewardType\":1,\"rewardAmount\":5,\"letters\":\"ACDEGILMNS\",\"words\":[{\"word\":\"GLANCE\",\"vertical\":true,\"rowIndex\":2,\"colIndex\":0,\"coinIndices\":[],\"awardCoins\":false},{\"word\":\"AI\",\"vertical\":true,\"rowIndex\":2,\"colIndex\":1,\"coinIndices\":[],\"awardCoins\":false},{\"word\":\"GAMES\",\"vertical\":false,\"rowIndex\":2,\"colIndex\":0,\"coinIndices\":[],\"awardCoins\":false},{\"word\":\"ADS\",\"vertical\":true,\"rowIndex\":0,\"colIndex\":4,\"coinIndices\":[],\"awardCoins\":false}],\"id\":\"ARCH_Level_0001\"}"
+          ],
+          "videourl": "Architecture/AngkorWat.mp4"
+        }
+      ]
+    }
+  ]
+}
