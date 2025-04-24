@@ -5,7 +5,7 @@ const PasscodeForm = ({ onCorrectPasscode }) => {
   const [passcode, setPasscode] = useState('');
   const [error, setError] = useState('');
 
-  const correctPasscode = '1234'; // You can change this to any passcode you want
+  const correctPasscode = '7654'; // You can change this to any passcode you want
 
   const handleSubmit = (e) => {
     e.preventDefault();

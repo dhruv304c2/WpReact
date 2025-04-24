@@ -10,6 +10,23 @@ app.get('/', (req, res) => {
 });
 
 const port = process.env.PORT || 3000;
-app.listen(port, () => {
-  console.log(`Server is running on http://localhost:${port}`);
+const host = '0.0.0.0';
+
+app.listen(port, host, () => {
+  console.log(`Server is running at:
+  - Local:   http://localhost:${port}
+  - Network: http://${getLocalIPAddress()}:${port}`);
 });
+
+// Utility to get local IP address
+function getLocalIPAddress() {
+  const { networkInterfaces } = require('os');
+  const nets = networkInterfaces();
+  for (const name of Object.keys(nets)) {
+    for (const net of nets[name]) {
+      if (net.family === 'IPv4' && !net.internal) {
+        return net.address;
+      }
+    }
+  }
+}
